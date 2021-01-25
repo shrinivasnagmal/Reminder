@@ -3,9 +3,9 @@
     <!-- Oredr-->
     <string name="app_name">AntiVirus</string>
     <string name="title">ORDER/SERVICES</string>
-    <string name="laptop">   LAPTOP</string>
+    <string name="laptop">Laptop</string>
     <string name="days">15 Days Extra</string>
-    <string name="pc">WINDOWS(PC)</string>
+    <string name="pc">Desktop</string>
     <string name="spinner">Antivirus Type :</string>
     <string-array name="names">
         <item>SELECT</item>
