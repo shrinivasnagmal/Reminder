@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                />
+            <LinearLayout
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/spinner"
+                    android:layout_weight="10"
+                    android:textSize="25sp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="30dp"
+                    />
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/spin"
+                    android:layout_marginTop="30dp"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/laptop"
+                    android:id="@+id/chk1"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:drawableLeft="@drawable/ic_baseline_laptop_24"
+
+                    />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pc"
+                    android:textSize="20sp"
+                    android:layout_marginTop="10dp"
+                    android:drawableLeft="@drawable/ic_baseline_desktop_windows_24"
+                    android:layout_marginLeft="10dp"
+
+                    />
+            </LinearLayout>
+            <EditText
+                android:layout_width="330dp"
+                android:layout_height="50dp"
+                android:id="@+id/active_date"
+                android:hint="Select Activation Date"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/ic_baseline_calendar_today_24"
+                />
+            <CheckBox
+                android:layout_width="330dp"
+                android:layout_height="50dp"
+                android:text="@string/days"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                />
+            <EditText
+                android:layout_width="330dp"
+                android:layout_height="50dp"
+                android:id="@+id/expiry_date"
+                android:hint="Enter Expiry Date DD/MM/YY"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/ic_baseline_calendar_today_24"
+                android:layout_gravity="center"
+
+                />
+            <EditText
+                android:layout_width="330dp"
+                android:layout_height="50dp"
+                android:hint="  Enter Name"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/ic_baseline_person_24"
+                android:layout_marginTop="10dp"
+                />
+            <EditText
+                android:layout_width="330dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/ic_baseline_phone_24"
+                android:hint="  Enter Contact No"
+                android:layout_marginTop="10dp"
+                />
+
+            <EditText
+                android:layout_width="330dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:hint="  Enter Address"
+                android:drawableLeft="@drawable/ic_baseline_location_city_24"
+                android:layout_marginTop="10dp"
+                />
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:text="Submit"
+                android:id="@+id/btn"
+                android:layout_gravity="center"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="result"
+                android:id="@+id/txt1"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="result"
+                android:id="@+id/txt2"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Oredr-->
+    <string name="app_name">AntiVirus</string>
+    <string name="title">ORDER/SERVICES</string>
+    <string name="laptop">   LAPTOP</string>
+    <string name="days">15 Days Extra</string>
+    <string name="pc">WINDOWS(PC)</string>
+    <string name="spinner">Antivirus Type :</string>
+    <string-array name="names">
+        <item>SELECT</item>
+        <item>QUICK HEAL</item>
+        <item>NP</item>
+    </string-array>
+
+
+    <!--Navbar-->
+    <string name="nav_open">Open Navi</string>
+    <string name="nav_close">close Navi</string>
+
+
+</resources>
