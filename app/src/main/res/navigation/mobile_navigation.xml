@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_add">
+
+    <fragment
+        android:id="@+id/nav_add"
+        android:name="com.komal.recycleviewdemo.Activities.ui.Add.AddNewFragment"
+        android:label="@string/menu_add_new"
+        tools:layout="@layout/fragment_add_new" />
+
+    <fragment
+        android:id="@+id/nav_purchase"
+        android:name="com.komal.recycleviewdemo.Activities.ui.Purchase.PurchaseFragment"
+        android:label="@string/menu_purchase"
+        tools:layout="@layout/fragment_purchase_fragments" />
+
+    <fragment
+        android:id="@+id/nav_list"
+        android:name="com.komal.recycleviewdemo.Activities.ui.ViewAll.ListFragment"
+        android:label="@string/menu_view_orders"
+        tools:layout="@layout/fragment_list" />
+</navigation>

@@ -44,8 +44,6 @@ public class MainActivity2 extends AppCompatActivity implements AdapterView.OnIt
         Spinner spinner = findViewById(R.id.spin);
         active_date = findViewById(R.id.active_date);
         expiry_date = findViewById(R.id.expiry_date);
-        txt1 = findViewById(R.id.txt1);
-        txt2 = findViewById(R.id.txt2);
         BtSubmit = findViewById(R.id.BtSubmit);
         extraCheckBox = findViewById(R.id.extraCheckBox);
 
