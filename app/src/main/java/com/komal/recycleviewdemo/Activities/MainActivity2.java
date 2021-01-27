@@ -1,4 +1,4 @@
-package com.komal.recycleviewdemo;
+package com.komal.recycleviewdemo.Activities;
 
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
@@ -19,6 +19,8 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.komal.recycleviewdemo.R;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

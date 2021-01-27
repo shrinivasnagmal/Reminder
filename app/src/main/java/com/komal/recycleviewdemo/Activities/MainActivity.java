@@ -1,4 +1,4 @@
-package com.komal.recycleviewdemo;
+package com.komal.recycleviewdemo.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.os.Bundle;
 
 import com.komal.recycleviewdemo.Adapters.MyAdapter;
+import com.komal.recycleviewdemo.R;
 
 import java.util.ArrayList;
 import java.util.List;
